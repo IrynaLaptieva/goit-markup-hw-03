@@ -50,9 +50,9 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  margin-top: 24px;
-  margin-bottom: 25px;
-  padding-right: 93px;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logopart1 {
@@ -186,6 +186,11 @@ nav,
 
   border: none;
   border-radius: 4px;
+
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
 }
 
 .btn:hover,
@@ -242,6 +247,7 @@ nav,
 
 .section.work {
   padding-top: 0;
+  margin-bottom: 0;
 }
 
 .list-work:nth-child(3n) {
@@ -269,6 +275,8 @@ nav,
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+
+  border-radius: 0px 0px 4px 4px;
 }
 
 .list .list-item {
@@ -310,6 +318,7 @@ nav,
 
 .logo.footer {
   margin-bottom: 20px;
+  margin-right: 0;
 }
 
 .street-address {
@@ -343,10 +352,12 @@ nav,
 
 .portfolio {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-filter {
   display: flex;
+  padding-left: 0;
   margin-top: 0;
   margin-bottom: 50px;
   margin-left: auto;
@@ -354,7 +365,7 @@ nav,
   justify-content: center;
 }
 
-.filter-item {
+.portfolio-link {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
@@ -406,7 +417,7 @@ nav,
   flex-wrap: wrap;
   padding-left: 0;
   margin-top: 0;
-  margin-bottom: 90px;
+  margin-bottom: 0;
 }
 
 .portfolio-item {
@@ -415,7 +426,6 @@ nav,
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin-bottom: 20px;
 }
 
 .portfolio-container {
